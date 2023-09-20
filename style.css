@@ -78,3 +78,11 @@ footer a:hover { /*para agregar el evento de hover, en este caso, se especifica 
 h4 {
     padding: 10px;
 }
+
+img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    border-radius: 5%;
+    border-bottom: 2px solid blue;
+    opacity: .9;
+}
